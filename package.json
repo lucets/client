@@ -1,0 +1,33 @@
+{
+  "name": "@lucets/client",
+  "version": "0.1.0",
+  "description": "Client for @lucets/luce",
+  "main": "./dist/index.js",
+  "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+  "homepage": "http://github.com/lucets/client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucets/client.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "luce",
+    "ws",
+    "websocket",
+    "client"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@lucets/message-hooks": "^0.1.0",
+    "eventemitter3": "^4.0.7"
+  },
+  "devDependencies": {
+    "tsify": "^5.0.2",
+    "typescript": "^4.2.2"
+  }
+}
